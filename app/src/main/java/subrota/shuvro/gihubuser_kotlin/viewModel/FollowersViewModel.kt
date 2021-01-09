@@ -1,4 +1,7 @@
 package subrota.shuvro.gihubuser_kotlin.viewModel
 
-class FollowersViewModel {
+import android.app.Application
+import androidx.lifecycle.AndroidViewModel
+
+class FollowersViewModel(application: Application) : AndroidViewModel(application) {
 }
