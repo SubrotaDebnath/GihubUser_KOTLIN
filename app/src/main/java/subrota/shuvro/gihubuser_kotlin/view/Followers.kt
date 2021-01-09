@@ -11,6 +11,6 @@ class Followers : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_followers)
 
-        val followersViewModel = ViewModelProvider(this).get(FollowersViewModel::class.java)
+        val followersViewModel = ViewModelProvider(this, ViewModelProvider.AndroidViewModelFactory(this.application)).get(FollowersViewModel::class.java)
     }
 }
