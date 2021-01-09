@@ -12,5 +12,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val mainViewModel = ViewModelProvider(this, ViewModelProvider.AndroidViewModelFactory(this.application)).get(MainViewModel::class.java)
+
     }
 }
