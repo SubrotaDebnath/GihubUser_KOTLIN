@@ -8,9 +8,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textColor="@color/white"
+            android:textSize="12dp"
+            android:textAlignment="textStart"
+            android:textStyle="italic"/>
 
     </LinearLayout>
-
-
-
 </androidx.cardview.widget.CardView>
