@@ -24,7 +24,6 @@
             android:paddingBottom="5dp"
             android:paddingTop="20dp"
             android:paddingEnd="10dp"/>
-
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -47,8 +46,5 @@
             android:layout_gravity="end"
             android:padding="10dp"
             android:id="@+id/loginGoBtn"/>
-
-
-
     </LinearLayout>
 </androidx.cardview.widget.CardView>
