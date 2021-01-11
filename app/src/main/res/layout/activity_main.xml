@@ -16,6 +16,8 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
+            android:id="@+id/profile"
+            android:visibility="gone"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
@@ -25,7 +27,7 @@
                 android:id="@+id/profile_image"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:src="@drawable/profile_img"
+                tools:src="@drawable/profile_img"
                 app:civ_border_width="2dp"
                 app:civ_border_color="#FFC107"
                 android:layout_gravity="center"/>
@@ -33,7 +35,7 @@
                 android:id="@+id/profileUserName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Subrota Debnath"
+                tools:text="Subrota Debnath"
                 android:gravity="center"
                 android:textColor="@color/black"
                 android:textStyle="normal"
@@ -45,7 +47,7 @@
                 android:id="@+id/profileUserType"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="user"
+                tools:text="user"
                 android:gravity="center"
                 android:textColor="@color/black"
                 android:textStyle="normal"
@@ -65,7 +67,7 @@
                 android:textColor="@color/black"
                 android:textSize="12dp"
                 android:textStyle="normal"
-                android:text="25276282" />
+                tools:text="25276282" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/linearLayout"
@@ -165,7 +167,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="@android:color/darker_gray"
-                            android:text="24 Jul 2018"
+                            tools:text="24 Jul 2018"
                             android:textColor="@color/black" />
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -201,7 +203,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="@android:color/darker_gray"
-                            android:text="24 Jul 2018"
+                            tools:text="24 Jul 2018"
                             android:textColor="@color/black" />
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
